@@ -5,7 +5,7 @@ A project of week two emphasizing on an exercise to test the use of j.s and its 
 The file is made most precisely with HTML and CSS making it easy to be viewed in any brower. i.e Chrome.
 
 ## Known bugs 
-The links of my other projects might be loading unfriendly but I am working on it.
+I have not encountered any bugs yet.
 
 ## Tech used 
 >HTML
