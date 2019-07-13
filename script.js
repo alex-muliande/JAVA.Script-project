@@ -49,4 +49,26 @@ function checkGender() {
       }else{
         console.log("passed male check");
       }
-      break
+      break;
+      case "female":
+        if (dayNum == 1) {
+          document.write("The day is on a sunday." + "  " + "Your akan name is  akosua");
+        } else if (dayNum == 2) {
+          document.write("The day is on a monday." + " " + "Your akan name is adwoa ");
+        } else if (dayNum == 3) {
+          document.write("The day is on a tuesday." + " " + "Your akan name is abenaa");
+        } else if (dayNum == 4) {
+          document.write("The day is on a wednesday." + " " + "Your akan name is akua");
+        } else if (dayNum == 5) {
+          document.write("The day is on a thursday." + " " + "Your akan name is yaa");
+        } else if (dayNum == 6) {
+          document.write("The day is on a friday." + " " + "Your akan name is afua");
+        } else if (dayNum == 7) {
+          document.write("The day is on a saturday." + " " + "Your akan name is ama");
+        }else{
+          console.log("passed female check");
+        }
+        break;
+        default:
+          console.log("passed both check");
+      }
