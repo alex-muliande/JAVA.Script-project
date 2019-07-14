@@ -8,7 +8,12 @@ html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
 }
-
+.jumbotron{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
 *,
 *::before,
 *::after {
