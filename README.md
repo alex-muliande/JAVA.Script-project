@@ -14,8 +14,8 @@ The file is made most precisely with HTML and CSS making it easy to be viewed in
 I have encountered a bug in the functionality some of the names of male and female are not pritting out or calculating succesful.I have invested all my time to fix these bugs and the app will be 100% functional soon.
 
 ## Tech used 
-** _>HTML_ **
-**_>>CSS_ **
+**_>HTML_**
+**_>>CSS_**
 **_>>>Bootstrap_**
 
 ## Support and controls 
