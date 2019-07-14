@@ -16,7 +16,7 @@ I have encountered a bug in the functionality some of the names of male and fema
 ## Tech used 
 >**_HTML_**
 >>**_CSS_**
->>**_Bootstrap_**
+>>>**_Bootstrap_**
 
 ## Support and controls 
 incase of anything or any questions reach out to me for verifications@ alexnad425@gmail.com
