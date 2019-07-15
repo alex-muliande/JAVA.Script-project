@@ -1,0 +1,27 @@
+body{
+   
+ /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ1RtYd1y_B_klg58GTNYEu1bap6xOrf8rx443oZlNzPeSwAFFdQ'); */
+ background-image: linear-gradient(to right, red , yellow);
+ /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+ /* background-image:url(''); */
+ background-size: cover;  
+ font-size: 25px;  
+}
+p{
+    color: whitesmoke;
+}
+h2{
+    color: whitesmoke;
+}
+.form-group{
+    color: white;
+}
+/* input,select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } */

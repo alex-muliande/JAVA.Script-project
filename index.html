@@ -8,13 +8,13 @@
     <title>JAVA</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <h1 class="jumbotron">JavaScript Name Generator</h1>
+    <h1 class="jumbotron"text-align="center">JavaScript Name Generator</h1>
     <p>This is an application that works in a way when you key in your age it gives your the names of that specific
         group of people. </p>
     <h2>Fill in your Date Of Birth</h2>
@@ -24,14 +24,19 @@
             <input type="number" name="century" id="century" value="" min="0" max="20"><br>
         </div>
         <br><br>
+        <div class="form-group">
         <label text="number" for="year">Year</label>
         <input type="number" name="year" id="year" value=""><br>
+        </div>
         <br><br>
+        <div class="form-group">
         <label text="number" for="month">Months</label>
         <input type="number" name="months" id="months" value="" min="1" max="12"><br>
+     
         <br><br>
         <label text="number" for="Day">Day</label>
         <input type="number" name="day" id="day" value="" min="1" max="31">
+    </div>
         <br><br>
         <!-- <input TYPE="reset" value=''"clear"> </p> -->
         <h2>Select gender</h2>
@@ -42,13 +47,6 @@
     <button onclick="checkDayOfWeek();">Calculate</button>
 
     <h1 id="name">Name:</h1>
-
-
-    <!-- <h2>Select gender</h2> -->
-
-
-
-    <script src="script.js"></script>
 </body>
 
 </html>
