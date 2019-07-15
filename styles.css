@@ -8,20 +8,24 @@ body{
  font-size: 25px;  
 }
 p{
-    color: whitesmoke;
+    /* color: rgb(37, 17, 17); */
 }
 h2{
     color: whitesmoke;
 }
 .form-group{
     color: white;
-/* }
-input,select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; */
+    text-align: center;
+  }
+    h2{
+      text-align: center;
+      padding-bottom: 10px;
+  }
+  .jumbotron{
+      text-align: center;
+  }
+  .form-control{
+      width: 60%;
+      margin-left: 20%;
+
   }
