@@ -12,10 +12,16 @@ p{
 }
 h2{
     color: whitesmoke;
+    text-align: center;
 }
 .form-group{
     color: white;
-}
-jumbotron{
     text-align: center;
+}
+.jumbotron{
+    text-align: center;
+}
+.form-control{
+    width: 60%;
+    margin-left:20%;
 }
