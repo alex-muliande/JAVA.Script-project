@@ -1,13 +1,13 @@
 function day (cc,yy,mm,dd){
   return ((((cc/4)-2*cc-1)+((5*yy/4)) + ((26*(mm+1)/10)) + dd)%7)+1
   }
-  var cc = document.write(prompt("Enter the century"));
-  var yy = document.write(prompt("Enter the year"));
-  var mm = document.write(prompt("Enter the month"));
-  var dd = document.write(prompt("Enter the date of birth"));
-  var gender= prompt("your gender")
+  var cc = document.forms[form1][century]
+  var yy = document.forms[form1][month]
+  var mm = document.forms[form1][year]
+  var dd = document.forms[form1][day]
+  var gender= document.write("your gender")
   var result=day(cc,yy,mm,dd).toFixed();
-  var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
+  var males=["Kwasi","kwadwo","Kwaben a","Kwaku","Yaw", "Kofi", "Kwame"];
   var females=["Akosua","Adwoa","Abenaa","Akua", "Yaa", "Afua", "Ama"];
   if (gender=="male" && result== 0){
   alert(males[0]);

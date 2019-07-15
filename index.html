@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html class="no-js">
 <!--<![endif]-->
@@ -8,45 +9,42 @@
     <title>JAVA</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="script.js"></script>
 </head>
 
 <body>
-    <h1 class="jumbotron">JavaScript Name Generator</h1>
+    <div class="jumbotron">
+    <h1>JavaScript Name Generator</h1>
     <p>This is an application that works in a way when you key in your age it gives your the names of that specific
         group of people. </p>
-    <h2>Fill in your Date Of Birth</h2>
-    <form action="">
-        <div class="form-group">
-            <label for="century">Century</label>
-            <input type="number" name="century" id="century" value="" min="0" max="20"><br>
-        </div>
-        <br><br>
-        <div class="form-group">
-        <label text="number" for="year">Year</label>
-        <input type="number" name="year" id="year" value=""><br>
-        </div>
-        <br><br>
-        <div class="form-group">
-        <label text="number" for="month">Months</label>
-        <input type="number" name="months" id="months" value="" min="1" max="12"><br>
-     
-        <br><br>
-        <label text="number" for="Day">Day</label>
-        <input type="number" name="day" id="day" value="" min="1" max="31">
     </div>
+    <h2>Fill in your Date Of Birth</h2>
+    <form action=""class="form-group" name="form1" onsubmit="sub()">
+            <label for="century">Century</label>
+            <input type="number"class="form-control" name="century" id="century" value="" min="0" max="20"><br>
         <br><br>
-        <!-- <input TYPE="reset" value=''"clear"> </p> -->
-        <h2>Select gender</h2>
-        <input type="radio" name="gender" value="male"> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
+            <label text="number"  for="year">Year</label>
+            <input type="number" class="form-control" name="year" id="year" value=""><br>
         <br><br>
-    </form>
-    <button onclick="checkDayOfWeek();">Calculate</button>
+            <label text="number" for="month">Month</label>
+            <input type="number" class="form-control" id="month" name="month" value="" min="1" max="12"><br>
 
-    <h1 id="name">Name:</h1>
+            <br><br>
+            <label text="number" for="Day">Day</label>
+            <input type="number" class="form-control" id="day" value="" name="day" min="1" max="31">
+        <!-- <input TYPE="reset" value=''"clear"> </p> -->
+        <p>Select gender</p>
+       <p><input type="radio"  value="male"> Male
+        <input type="radio"  value="female"> Female</p>
+        <br><br>
+        <button type="submit" value="submit" onclick="sub();">submit</button>
+    </form>
+
+    <!-- 
+    <h1 id="name">Name:</h1> -->
 </body>
 
 </html>
