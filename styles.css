@@ -8,11 +8,10 @@ body{
  font-size: 25px;  
 }
 p{
-<<<<<<< HEAD
+
     /* color: whitesmoke; */
-=======
     /* color: rgb(37, 17, 17); */
->>>>>>> gh-pages
+
 }
 h2{
     color: whitesmoke;
@@ -21,7 +20,7 @@ h2{
 .form-group{
     color: white;
     text-align: center;
-<<<<<<< HEAD
+
 }
 .jumbotron{
     text-align: center;
@@ -30,8 +29,8 @@ h2{
     width: 60%;
     margin-left:20%;
 }
-=======
-  }
+
+  
     h2{
       text-align: center;
       padding-bottom: 10px;
@@ -44,4 +43,4 @@ h2{
       margin-left: 20%;
 
   }
->>>>>>> gh-pages
+
